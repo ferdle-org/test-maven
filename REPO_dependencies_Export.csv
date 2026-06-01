@@ -1,0 +1,110 @@
+﻿"timestamp [UTC]",message,severityLevel,"operation_Name"
+"5/27/2026, 10:48:09.496 PM","Request [2f2ba3d5-4d39-4baa-afde-2c628169d7a1] GET https://postbuyqaeastvehicle.blob.core.windows.net/azure-webjobs-secrets/postbuy-qa-east-pv-query/getfinalizehistorylogdetails.json
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:2f2ba3d5-4d39-4baa-afde-2c628169d7a1
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 6.0.36; Microsoft Windows 10.0.20348)
+x-ms-date:Wed, 27 May 2026 22:48:09 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs",1,
+"5/27/2026, 10:48:09.492 PM","Request [58887bee-1e7c-4dcb-ac95-ac8dd55a2ded] HEAD https://postbuyqaeastvehicle.blob.core.windows.net/azure-webjobs-secrets/postbuy-qa-east-pv-query/getfinalizehistorylogdetails.json
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:58887bee-1e7c-4dcb-ac95-ac8dd55a2ded
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 6.0.36; Microsoft Windows 10.0.20348)
+x-ms-date:Wed, 27 May 2026 22:48:09 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs",1,
+"5/27/2026, 10:48:09.486 PM","Request [6ef158e0-db2f-4082-a623-9c7793b029c9] GET https://postbuyqaeastvehicle.blob.core.windows.net/azure-webjobs-secrets/postbuy-qa-east-pv-query/getfinalizehistorydetails.json
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:6ef158e0-db2f-4082-a623-9c7793b029c9
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 6.0.36; Microsoft Windows 10.0.20348)
+x-ms-date:Wed, 27 May 2026 22:48:09 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs",1,
+"5/27/2026, 10:48:09.481 PM","Request [ba283c20-efc9-41cd-8b2b-ca5d604fad8e] HEAD https://postbuyqaeastvehicle.blob.core.windows.net/azure-webjobs-secrets/postbuy-qa-east-pv-query/getfinalizehistorydetails.json
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:ba283c20-efc9-41cd-8b2b-ca5d604fad8e
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 6.0.36; Microsoft Windows 10.0.20348)
+x-ms-date:Wed, 27 May 2026 22:48:09 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs",1,
+"5/27/2026, 10:48:09.472 PM","Request [34a4cee3-d30e-4b81-a294-cf427c1f7bbd] GET https://postbuyqaeastvehicle.blob.core.windows.net/azure-webjobs-secrets/postbuy-qa-east-pv-query/getfinalizehistory.json
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:34a4cee3-d30e-4b81-a294-cf427c1f7bbd
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 6.0.36; Microsoft Windows 10.0.20348)
+x-ms-date:Wed, 27 May 2026 22:48:09 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs",1,
+"5/27/2026, 10:48:09.467 PM","Request [98e6c1c2-4369-4dd7-9702-faf3e9e60f2a] HEAD https://postbuyqaeastvehicle.blob.core.windows.net/azure-webjobs-secrets/postbuy-qa-east-pv-query/getfinalizehistory.json
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:98e6c1c2-4369-4dd7-9702-faf3e9e60f2a
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 6.0.36; Microsoft Windows 10.0.20348)
+x-ms-date:Wed, 27 May 2026 22:48:09 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs",1,
+"5/27/2026, 10:47:39.027 PM","Initializing function HTTP routes
+Mapped function route 'api/GetFinalizeHistory/{auctionId}/{year:int}/{month:int}' [get] to 'GetFinalizeHistory'
+Mapped function route 'api/GetFinalizeHistoryDetails/{detailsKey}' [get] to 'GetFinalizeHistoryDetails'
+Mapped function route 'api/GetFinalizeHistoryLogDetails/{detailsKey}' [get] to 'GetFinalizeHistoryLogDetails'
+Mapped function route 'api/GetPurchasedVehicles/{auctionId}' [get] to 'GetPurchasedVehicles'
+Mapped function route 'api/GetPurchasedVehiclesTemplate' [get] to 'GetPurchasedVehicleTemplate'
+Mapped function route 'api/GetStoreLocations' [get] to 'GetStoreLocations'
+Mapped function route 'api/IsAuctionOptimized/{auctionId}' [get] to 'IsAuctionOptimized'",1,
+"5/27/2026, 10:47:39.003 PM","Found the following functions:
+CarMax.Services.PurchasedVehicles.Query.GetFinalizeHistory.Run
+CarMax.Services.PurchasedVehicles.Query.GetFinalizeHistoryDetails.Run
+CarMax.Services.PurchasedVehicles.Query.GetFinalizeHistoryLogDetails.Run
+CarMax.Services.PurchasedVehicles.Query.GetPurchasedVehicles.Run
+CarMax.Services.PurchasedVehicles.Query.GetPurchasedVehiclesTemplate.Run
+CarMax.Services.PurchasedVehicles.Query.GetStoreLocations.Run
+CarMax.Services.PurchasedVehicles.Query.IsAuctionOptimized.Run",1,
+"5/27/2026, 10:24:28.763 PM","Request [89cee96e-fdc7-421f-81eb-1ae7a38e2586] GET https://postbuyqaeastvehicle.blob.core.windows.net/azure-webjobs-secrets/postbuy-qa-east-pv-cmd/finalizepurchasedvehicles.json
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:89cee96e-fdc7-421f-81eb-1ae7a38e2586
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 6.0.36; Microsoft Windows 10.0.20348)
+x-ms-date:Wed, 27 May 2026 22:24:28 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs",1,
+"5/27/2026, 10:24:28.755 PM","Request [7932f07c-5b4b-4bcd-9c47-e5a2dfc4c3d9] HEAD https://postbuyqaeastvehicle.blob.core.windows.net/azure-webjobs-secrets/postbuy-qa-east-pv-cmd/finalizepurchasedvehicles.json
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:7932f07c-5b4b-4bcd-9c47-e5a2dfc4c3d9
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 6.0.36; Microsoft Windows 10.0.20348)
+x-ms-date:Wed, 27 May 2026 22:24:28 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs",1,
+"5/27/2026, 10:23:57.951 PM","Initializing function HTTP routes
+Mapped function route 'api/PurchasedVehicles' [post] to 'FinalizePurchasedVehicles'
+Mapped function route 'api/ImportVehicles/{auctionId}/{userId}' [post] to 'ImportVehicles'
+Mapped function route 'api/NotifyOptimizedVehicles/{auctionId}' [get,post] to 'NotifyOptimizedVehicles'
+Mapped function route 'api/RemovePurchasedVehicle/{auctionId}/{purchasedVehicleId}/{userId}' [post] to 'RemovePurchasedVehicle'
+Mapped function route 'api/UpdatePurchasedVehicles/{auctionId}/{userId}' [post] to 'UpdatePurchasedVehicles'",1,
+"5/27/2026, 10:23:57.939 PM","Found the following functions:
+CarMax.Services.PurchasedVehicles.Cmd.ArchivePurchasedVehicles.Run
+CarMax.Services.PurchasedVehicles.Cmd.FinalizePurchasedVehicles.Run
+CarMax.Services.PurchasedVehicles.Cmd.ImportVehicles.Run
+CarMax.Services.PurchasedVehicles.Cmd.NotifyOptimizedVehicles.Run
+CarMax.Services.PurchasedVehicles.Cmd.RemovePurchasedVehicle.Run
+CarMax.Services.PurchasedVehicles.Cmd.UpdatePurchasedVehicles.Run",1,
+"5/27/2026, 9:03:52.084 PM","Stopped the listener 'Microsoft.Azure.WebJobs.Extensions.Http.HttpTriggerAttributeBindingProvider+HttpTriggerBinding+NullListener' for function 'GetFinalizeHistoryLogDetails'",1,
+"5/27/2026, 9:03:52.084 PM","Stopping the listener 'Microsoft.Azure.WebJobs.Extensions.Http.HttpTriggerAttributeBindingProvider+HttpTriggerBinding+NullListener' for function 'GetFinalizeHistoryLogDetails'",1,
+"5/27/2026, 9:03:52.084 PM","Stopped the listener 'Microsoft.Azure.WebJobs.Extensions.Http.HttpTriggerAttributeBindingProvider+HttpTriggerBinding+NullListener' for function 'GetFinalizeHistoryDetails'",1,
+"5/27/2026, 9:03:52.084 PM","Stopping the listener 'Microsoft.Azure.WebJobs.Extensions.Http.HttpTriggerAttributeBindingProvider+HttpTriggerBinding+NullListener' for function 'GetFinalizeHistoryDetails'",1,
+"5/27/2026, 9:03:52.084 PM","Stopped the listener 'Microsoft.Azure.WebJobs.Extensions.Http.HttpTriggerAttributeBindingProvider+HttpTriggerBinding+NullListener' for function 'GetFinalizeHistory'",1,
+"5/27/2026, 9:03:52.084 PM","Stopping the listener 'Microsoft.Azure.WebJobs.Extensions.Http.HttpTriggerAttributeBindingProvider+HttpTriggerBinding+NullListener' for function 'GetFinalizeHistory'",1,
+"5/27/2026, 9:03:45.599 PM","Stopped the listener 'Microsoft.Azure.WebJobs.Extensions.Http.HttpTriggerAttributeBindingProvider+HttpTriggerBinding+NullListener' for function 'FinalizePurchasedVehicles'",1,
+"5/27/2026, 9:03:45.599 PM","Stopping the listener 'Microsoft.Azure.WebJobs.Extensions.Http.HttpTriggerAttributeBindingProvider+HttpTriggerBinding+NullListener' for function 'FinalizePurchasedVehicles'",1,
